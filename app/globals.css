@@ -2,15 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-:root{
-  --pl-purple:#38003c;
-  --pl-pink:#e90052;
-  --pl-green:#00ff85;
-  --pl-cyan:#04f5ff;
+* {
+  box-sizing: border-box;
 }
 
-body{
-  background:#fff;
-  color:#141414;
+body {
+  background: #f8fafc;
+  color: #0f172a;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
-
